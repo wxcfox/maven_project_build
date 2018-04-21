@@ -10,5 +10,5 @@
 >> * |--yk-manager-web：表现层工程，打包方式war，依赖service、jsp相关。补全目录结构，添加欢迎页。
 
 ## 2.测试
-在yk-manager 的pom工程中，配置tomcat插件。启动的端口号，和工程名称。
-按顺序对yk-parent和yk-common执行maven install，然后对yk-manager执行clean tomcat:run。
+* 在yk-manager 的pom工程中，配置tomcat插件。启动的端口号，和工程名称。
+* 按顺序对yk-parent和yk-common执行maven install，然后对yk-manager执行clean tomcat:run。
